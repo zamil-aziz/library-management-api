@@ -1,0 +1,19 @@
+# Build output
+bin/
+obj/
+
+# User/editor files
+.DS_Store
+.idea/
+.vscode/
+*.user
+*.suo
+
+# Local database files
+*.db
+*.db-shm
+*.db-wal
+
+# Test output
+TestResults/
+coverage/

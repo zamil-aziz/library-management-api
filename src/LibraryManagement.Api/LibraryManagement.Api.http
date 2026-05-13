@@ -1,0 +1,19 @@
+@LibraryManagement.Api_HostAddress = http://localhost:5241
+
+GET {{LibraryManagement.Api_HostAddress}}/api/books
+Accept: application/json
+
+###
+
+POST {{LibraryManagement.Api_HostAddress}}/api/books
+Content-Type: application/json
+
+{
+  "title": "Clean Code",
+  "author": "Robert C. Martin",
+  "isbn": "9780132350884",
+  "publishedYear": 2008,
+  "isAvailable": true
+}
+
+###
