@@ -143,3 +143,4 @@ The tests use an in-memory SQLite database and cover create, list, get missing, 
 - Book loan and return workflow
 - Search and filtering
 - Authentication and role-based access control
+# library-management-api
